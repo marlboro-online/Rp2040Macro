@@ -1,0 +1,12 @@
+If you're reading this, you're probably wondering how to use the macros found on this repo onto your Adafruit Macropad
+
+ensure that you have the stock config installed with the uf2 found here: https://circuitpython.org/board/adafruit_macropad_rp2040/
+
+It's just a simple case of putting the device onto boot loader mode by pressing the encoder button (the knob) and the reset button found on the top left (near the screen of the device)
+
+After that is done (assuming you haven't done so already), you should have a CIRCUITPY usb device on your drive list, go inside that drive and find the "macros" folder, drag and drop the macros you have downloaded from me onto that folder.
+
+This would make your device restart
+
+Hope this helps,
+Marlboro-Online
