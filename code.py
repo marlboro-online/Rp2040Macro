@@ -128,9 +128,9 @@ while True:
         app_index = position % len(apps)
         apps[app_index].switch()
         last_position = position
-        macropad.start_tone(587)
-        time.sleep(0.3)
-        macropad.stop_tone()
+        macropad.start_tone(196) ##this is the tone that's going to play whenever you swap profiles with the encoder
+        time.sleep(0.1) ## this determines the length of said tone
+        macropad.stop_tone() ##you can technically layer / sequence the tone like we did during the initialization by using the start_tone, time.sleep, stop_tone (layering them together)
 
     # Handle encoder button. If state has changed, and if there's a
     # corresponding macro, set up variables to act on this just like
